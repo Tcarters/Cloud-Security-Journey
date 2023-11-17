@@ -468,3 +468,15 @@ az deployment group create \
 - deployment success
   
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/b025e1b1-039f-424a-ae40-49d986f5176a)
+
+
+- Access the Web server from VmConsumer using the RDP Protocol
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/778f74fd-dc69-4302-9d82-6e94e9b3c24f)
+
+or using cmd
+```bash
+Invoke-AzVMRunCommand -Name 'ComsumerVmdsrar' -ResourceGroupName 'rg_eastus_166013_1_170022524478' -CommandId 'RunPowerShellScript' -ScriptPath 'path-to-script'
+
+```
+- - -
