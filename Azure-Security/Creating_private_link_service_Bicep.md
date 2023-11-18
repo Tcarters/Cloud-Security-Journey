@@ -7,6 +7,20 @@
 - Bicep allows you to create modular templates that can be easily shared and reused.
 - Bicep integrates with Azure DevOps, GitHub, and other tools commonly used for infrastructure as code.
 
+### What is a private link service?
+- Azure Private Link provides a secure network connection to Azure PaaS services and Azure-hosted customer/partner services over a private IP address from a virtual network.
+- The connection uses a private IP address from the customer's virtual network, ensuring that the connection does not traverse the public Internet.
+- Azure Private Link enables customers to access Azure PaaS services and Azure-hosted customer/partner services from a virtual network, improving network security and reducing network latency.
+- By eliminating internet-bound traffic, customers can reduce data egress charges associated with accessing Azure PaaS services and Azure-hosted customer/partner services.
+
+### What is a private endpoint?
+- Azure Private Endpoint provides private access to Azure PaaS services from a virtual network.
+- The connection uses a private IP address from the customer's virtual network, eliminating Internet-bound traffic for increased security.
+- Azure Private Endpoint enables customers to access Azure PaaS services from a virtual network, reducing network latency and improving performance.
+- By eliminating internet-bound traffic, customers can reduce data egress charges associated with accessing Azure PaaS services.
+- Azure Private Endpoint is compatible with existing virtual network configurations, allowing customers to integrate Azure PaaS services into their existing network security and compliance controls.
+
+
 ## Architecture Diagram
 
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/144ac660-3cbc-4abb-945c-f4d79d08ed86)
