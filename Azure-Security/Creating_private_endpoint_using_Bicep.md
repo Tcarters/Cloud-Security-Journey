@@ -25,4 +25,16 @@ az deployment group create \
 
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/be20a2f0-1116-410c-a429-1a5abeb279a3)
 
-- 
+- Test database sql server name
+
+`nslookup sqlserveryejbzycvqyw72.database.windows.net`
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/1dd55ef7-8581-407c-b366-bbfa5408c469)
+
+
+- Setup sql server connection in vm
+> https://aka.ms/ssmsfullsetup
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/084ed94c-700f-4164-9182-b80c26a6d225)
+
+
