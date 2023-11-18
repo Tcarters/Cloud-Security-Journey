@@ -61,3 +61,16 @@ Review:
 - ADD ROUTE
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/94456e18-58de-413d-8a07-1ee9b7d9201d)
 
+## Task 8: Configure a NAT rule 
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/ffffa28f-7185-4061-baad-35fe48a49f37)
+
+## Task 9: Test the firewall
+- Using PublicIP : 20.163.200.224 from Firewall
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/9be6f65b-3150-45d3-a893-987254411c84)
+
+- ACCESS VM THROUGH FIREWALL :
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/72f930f7-0691-4442-bfd3-18a7a8a8e3e0)
+
+- - -
