@@ -60,8 +60,8 @@
 
 
 ### Step 4: Allow HTTP traffic via NSG rules
-
-- Install web server :
+1. In the __Windows virtual machine__, open the Server Manager and click on Add Roles and Features . We will now install a web server on this particular machine by adding a network security group rule to allow traffic to flow into this virtual machine on Port 80 so that we can access the web server.
+2. Install web server :
 
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/323eb111-93e5-4b03-b828-fd433229cffa)
 
@@ -84,8 +84,3 @@
 Game Over 📌
 Done.
 - - -
-
-
-1. In the __Windows virtual machine__, open the Server Manager and click on Add Roles and Features . We will now install a web server on this particular machine by adding a network security group rule to allow traffic to flow into this virtual machine on Port 80 so that we can access the web server.
-2.  
-
