@@ -74,7 +74,84 @@
 
 - Add a __rule collection__
 
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/df0179ef-2840-404b-bfb2-2c4b1bdf96df)
 
+## Task 7: Create a VPN gateway for the hub virtual network
+
+-  Now create the VPN gateway for the hub virtual network. Network-to-network configurations require a RouteBased VpnType.
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/c61d790c-fc90-4254-98fd-c1d78a3003c3)
+
+
+
+## Task 8: Create a VPN gateway for the on-premises virtual network
+
+- Add second VPN Gateway for On-Prem
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/49fa9a15-ce30-40f5-86e1-56f3e466b9f9)
+
+
+## Task 9: Create the VPN connections
+
+- Create the connection from the hub virtual network to the on-premises virtual network. You'll see a shared key referenced in the examples. You can use your own values for the shared key. The important thing is that the shared key must match for both connections.
+- Creating a connection can take a short while to complete.
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/48c0217f-414c-4ffc-ae12-4b180ce0c713)
+
+- Settings connections
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/7831d9a1-4da9-421e-a9cf-b5a74cd954db)
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/488b3f16-e7e0-42e2-b8d9-880db2e4ed4c)
+
+- Same Process of On-Prem
+
+
+
+## Task 10: Peer the hub and spoke virtual networks
+
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/91fe13cd-26f7-4ae8-8eaa-e6e67620482f)
+
+- Select __Peerings__
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/a596327b-20c4-4b27-95b9-92cdf7fd3fca)
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/44b9418e-c280-4aa2-95e6-d9cd8365643f)
+
+- Remote Virt
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/d3bead80-8259-46e2-8919-15c5e3412fe3)
+
+
+## Task 11: Create the routes
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/17aad6f2-25cd-41e8-9bef-d671139dc6b6)
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/4f6c57a4-e1b6-4601-9be6-483d384a0f9b)
+
+- Associate
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/798d37ba-9d6f-4f3e-8f73-1a83735a5224)
+
+
+
+
+
+## Task 12: Create virtual machines
+
+- Create spoke vm on spoke-Virtual Net with RDP port allowed
+  
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/0d5e2225-0f10-482c-8e86-715e278025b3)
+
+
+- Create the on-premises virtual machine on the On-Prem Virtual Net with RDP port allowed
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/6f1db5f4-11fd-4e45-ab61-689e0d0c8cb8)
+
+
+
+#### Mission Not successful , lots of outdated steps From Documentation ....
 
 
 
