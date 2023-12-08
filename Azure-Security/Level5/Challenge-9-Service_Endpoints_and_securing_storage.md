@@ -115,4 +115,8 @@ if ($connectTestResult.TcpTestSucceeded) {
 
 ```
 
+Rest of Task refers to : https://github.com/Tcarters/Cloud-Security-Journey/blob/master/Azure-Security/Level2/Service_Endpoints_and_Securing_Storage.md
+
+- - -
+
 
