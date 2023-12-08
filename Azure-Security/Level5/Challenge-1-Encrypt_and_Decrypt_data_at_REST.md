@@ -30,7 +30,7 @@ Follow the below instructions to complete this challenge.
 
 __Architecture Diagram__
 
-      ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/ae56602c-9bfa-4de5-8b23-02f06ee7d204)
+   ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/ae56602c-9bfa-4de5-8b23-02f06ee7d204)
 
 
 ### Step 1: Create a Storage Account
