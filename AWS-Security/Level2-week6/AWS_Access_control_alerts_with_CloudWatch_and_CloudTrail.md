@@ -96,3 +96,88 @@
 
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/cceb532b-0528-4bcc-9c02-dcda169dc17c)
 
+
+## Task 4: Creating an Alarm
+
+- In CloudWatch, select the log group created for our CloudTrail and then click on metric filters at the bottom.
+
+- Select the Metric filter created in the above step and then click on create alarm as shown below:
+
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/4aa913c0-432e-4ca9-b458-5cdaca2ae846)
+
+- Specify the metric conditions as follows:
+
+Namespace : CloudTrailMetrics (default)
+
+Metric name : EC2stoppedInstanceEventCount (default)
+
+Statistic        : sum (default)
+
+Period          : 5 minute (default)
+
+Conditions:
+
+Threshold type: Select Static
+
+Whenever EC2stoppedInstanceEventCount is :    than 1.
+
+Click on Next.
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/c354cc8d-1079-45fb-9ced-ec7cee09dbde)
+
+- Next we'll configure actions
+
+Alarm state trigger                                              : Select in alarm
+
+Select an SNS topic                                            : select Create new topic
+
+Create a new topic                                              : Enter the topic name as My_Ec2count_topic
+
+Email endpoints that will receive the notification :  Enter your Email address to receive the alert
+
+Once you provide these details, click on create topic.
+
+AWS will send a confirmation email to the Email address provided above. You will need to confirm the email subscription 
+
+Note: If you are not getting any mail from AWS confirmation, Please check your spam
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/b4c65684-0992-4a88-8f80-3e05e775120b)
+
+- Confirmation Mail:
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/e0cf0681-29fd-4c65-9903-c435f17d1cf7)
+
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/1f06bcf7-f67e-4ca9-a32e-cae7eb0789b3)
+
+- Review:
+
+  ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/7aa46f1a-5e52-487b-9c35-4d5de6a396e9)
+
+### Test
+- Stop Instance
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/5eb3bf81-8911-4b9e-a5c0-0493023ff74e)
+
+- Email Notification :
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/d2b297ad-fa71-4ccf-86da-ee1bb2081a41)
+
+
+
+
+## Task 5: Creating an EC2 Instance to Trigger our Alarm
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/4b8d61ba-8c10-4b75-a607-0fc621d4f0df)
+
+- Key
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/1a740684-a36b-48a3-9ef1-e39669493cf2)
+
+- Secruity Group :
+  
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/d524d827-98d4-44db-a61d-d240fdee9bef)
+
+
+Done 🎌
