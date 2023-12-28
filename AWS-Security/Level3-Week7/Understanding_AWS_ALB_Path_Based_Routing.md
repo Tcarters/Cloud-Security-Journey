@@ -260,6 +260,10 @@ Rule for admin
 
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/4246e91b-260c-4968-929e-1a735d737cbb)
 
+- review Target Groups:
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/51a98136-0cfd-4239-97bf-f8e59ff51d56)
+
 
 ## Task 5: Test the ELB configuration
 
