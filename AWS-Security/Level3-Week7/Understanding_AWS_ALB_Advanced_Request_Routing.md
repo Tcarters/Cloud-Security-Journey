@@ -128,6 +128,9 @@ Select the Target group you created.
 
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/142abc84-71a0-49a9-a7af-7dbd0c4de28a)
 
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/bc490838-9c2a-4073-937a-f464e017aef4)
+
+
 - Return back on `Create LoadBalancer`
 
 Click on Create load balancer button. It will take 5-10 minutes to create the same. 
@@ -218,3 +221,33 @@ body {
 
 ## Task 5: Test the ELB configuration
 
+- Now, again navigate to the Load Balancers under Load balancing.
+
+Copy the DNS name of the ALB and enter the address in the browser. You will be able to see the default welcome page.
+
+Now access the Admin page.
+
+Syntax : ``http://<ELB DNS name>``
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/23dfe3fc-8a59-4b27-8b50-d88445f5d599)
+
+- Now test the Query string.
+
+Syntax : ``http://<ELB DNS name>/?id=Amazon``
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/995d9e4c-af5c-41d4-8ef2-b00ff7b9d093)
+
+- Testing `id` :
+
+Now, if you pass some other value in the Query string.
+
+Syntax : ``http://<ELB DNS name>/?id=Google``
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/2f3e6744-c8b1-48ad-bef3-b4bc840b9f0c)
+
+- Testing `Curl` :
+
+![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/e0b0b830-fb0b-4075-8b75-cec0fe9d5375)
+
+
+Doneee............. 🎌
