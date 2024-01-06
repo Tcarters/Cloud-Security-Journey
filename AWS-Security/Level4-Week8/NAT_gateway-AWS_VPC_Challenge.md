@@ -134,7 +134,7 @@ Resolving Dependencies
 
 ``
 
-- Check web server running on private
+- Check web server running on private instance
 
 ![image](https://github.com/Tcarters/Cloud-Security-Journey/assets/71230412/55c10beb-bc1f-4f3d-b10d-7cb8a328aa5f)
 
